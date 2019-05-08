@@ -1,0 +1,13 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{263, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Images/Header.jpg",
+      "title": "GlitchMe",
+      "package": "com.jukben.glitchme",
+      "hideShadow": false
+    }
+  ]
+}

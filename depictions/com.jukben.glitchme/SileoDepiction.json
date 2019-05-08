@@ -1,0 +1,131 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Images/Header.jpg",
+  "tintColor": "#00DEFF",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "markdown": "**Let me glitch...**",
+          "useSpacing": true,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 275.41333333333336}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/1.jpg",
+              "fullSizeURL": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/1.jpg"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/2.jpg",
+              "fullSizeURL": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/2.jpg"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/3.jpg",
+              "fullSizeURL": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/3.jpg"
+            }
+          ],
+          "ipad": {
+            "itemCornerRadius": 9,
+            "itemSize": "{320, 550.8266666666667}",
+            "screenshots": [
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/1.jpg",
+                "fullSizeURL": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/1.jpg"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/2.jpg",
+                "fullSizeURL": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/2.jpg"
+              },
+              {
+                "accessibilityText": "Screenshot",
+                "url": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/3.jpg",
+                "fullSizeURL": "https://cydia.jukben.cz/depictions/com.jukben.glitchme/Screenshots/3.jpg"
+              }
+            ],
+            "class": "DepictionScreenshotView"
+          },
+          "class": "DepictionScreenshotsView"
+        },
+        {
+          "markdown": "**Compatible with iOS 9-12 (Requires XenHTML)**\n\nWith this tweak you can easily turn your lock background into glitching monster. Feel like a true hacker, or bamboozle your grandma, it's upon to you.\n\nPlace your wallpaper to *var/mobile/Library/LockHTML/GlitchMe/wallpaper.jpeg*\n\nBe aware of proper aspect ratio which is configurable in settings (in XenHTML).\n\nSpecial credits to @felixturner & @alteredq for a great sources without them it won't happen.",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "title": "Latest Version",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "Version",
+          "text": "1.0",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Released",
+          "text": "2019-5-8",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "text": "jukben",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Contact Support",
+          "action": "mailto:jukben@gmail.com.com?subject=GlitchMe",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "URL": "https://cydia.jukben.cz/CydiaIcon.png",
+          "width": 44,
+          "height": 44,
+          "alignment": 1,
+          "cornerRadius": 0,
+          "class": "DepictionImageView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "title": "Version v1.0",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "Initial release",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
