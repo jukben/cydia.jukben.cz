@@ -57,7 +57,7 @@
           "class": "DepictionScreenshotsView"
         },
         {
-          "markdown": "**Compatible with iOS 9-12 (Requires XenHTML)**\n\nWith this tweak you can easily turn your lock background into glitching monster. Feel like a true hacker, or bamboozle your grandma, it's upon to you.\n\nPlace your wallpaper to *var/mobile/Library/LockHTML/GlitchMe/wallpaper.jpeg*\n\nBe aware of proper aspect ratio which is configurable in settings (in XenHTML).\n\nSpecial credits to @felixturner & @alteredq for a great sources without them it won't happen.",
+          "markdown": "**Compatible with iOS 9-12 (Requires XenHTML)**\n\nWith this tweak you can easily turn your lock background into glitching monster. Feel like a true hacker, or bamboozle your grandma, it's upon to you.\n\nPlace your wallpaper to *var/mobile/Library/LockHTML/GlitchMe/wallpaper.jpeg*\n\nBe aware that the image needs to have proper dimensions (correct aspect ratio, otherwise gets squeezed)\n\nSpecial credits to @felixturner & @alteredq for a great sources without them it won't happen.",
           "useSpacing": true,
           "class": "DepictionMarkdownView"
         },
@@ -67,7 +67,7 @@
         },
         {
           "title": "Version",
-          "text": "1.0",
+          "text": "1.1",
           "class": "DepictionTableTextView"
         },
         {
@@ -113,13 +113,27 @@
       "tabname": "Changelog",
       "views": [
         {
+          "title": "Version v1.1",
+          "useBoldText": true,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "* Fixed aspect ratio calculation\n* Removed XenHTML-enabled options since they were unnecessary",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
           "title": "Version v1.0",
           "useBoldText": true,
           "useBottomMargin": false,
           "class": "DepictionSubheaderView"
         },
         {
-          "markdown": "Initial release",
+          "markdown": "* Initial release",
           "useSpacing": true,
           "class": "DepictionMarkdownView"
         }

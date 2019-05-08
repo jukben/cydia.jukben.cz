@@ -1,6 +1,6 @@
 Package: com.jukben.glitchme
 Name: GlitchMe 
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Depends: com.matchstic.xenhtml
 Description: Let your lock background glitch

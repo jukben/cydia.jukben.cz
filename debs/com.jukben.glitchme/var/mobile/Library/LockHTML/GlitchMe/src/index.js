@@ -1,20 +1,8 @@
-function getAspectRatio() {
-  try {
-    return aspectRatio;
-  } catch (e) {
-    return 0.461538462;
-  }
-}
-
 function GlitchMe() {
-  const scene = new THREE.Scene();
+  const aspectRatio = window.innerWidth / window.innerHeight;
 
-  const camera = new THREE.PerspectiveCamera(
-    75,
-    window.innerWidth / window.innerHeight,
-    0.1,
-    1000
-  );
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(75, aspectRatio, 0.1, 1000);
 
   const webGLRenderer = new THREE.WebGLRenderer();
   webGLRenderer.setClearColor(new THREE.Color(0xeeeeee));
@@ -25,7 +13,7 @@ function GlitchMe() {
   map.minFilter = THREE.LinearFilter;
 
   var wallpaperMesh = new THREE.Mesh(
-    new THREE.PlaneGeometry(10 * getAspectRatio(), 10),
+    new THREE.PlaneGeometry(10 * aspectRatio, 10),
     new THREE.MeshLambertMaterial({
       map
     })
